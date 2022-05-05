@@ -15,7 +15,7 @@ bitcoin_ubuntu() {
     #add-apt-repository -y ppa:bitcoin/bitcoin
     apt-get -y update    
     
-    apt-get -y install libdb4.8-dev libdb4.8++-dev   
+    apt-get -y install libdb-dev libdb++-dev   
     
     # optional
     apt-get -y install libminiupnpc-dev

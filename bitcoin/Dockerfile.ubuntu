@@ -1,4 +1,4 @@
-FROM bitcoin/base_xenial
+FROM bitcoin/base_focal
 
 WORKDIR ${BASE_DIR}
 
